@@ -1,0 +1,24 @@
+loop = 1
+
+while (loop < 10):
+
+    adjective = input("Choose a adjective: ")
+    noun = input("Choose a noun: ")
+    verb = input("Choose a verb: ")
+    noun2 = input("Choose a plural noun: ")
+    noun3 = input("Choose a noun: ")
+    noun4 = input("Choose a noun: ")
+    verb2 = input("Choose a past participle verb: ")
+    noun5 = input("Choose a noun: ")
+
+    # Displays the story based on the users input
+    print ("------------------------------------------")
+    print ("Give yourself to the",adjective,"side.")
+    print ("It is the only way you can save your",noun,".")
+    print ("Yes. Your thoughts" ,verb, "you.")
+    print ("Your" ,noun2, "for them are strong.",)
+    print ("Especially for..." ,noun3,".So, you have a twin" ,noun3, ".")
+    print ("Your feelings have now" ,verb2, "her, too." ,noun5, "was wise to hide her from me.")
+
+    # Loop back to "loop = 1"
+    loop = loop + 1
