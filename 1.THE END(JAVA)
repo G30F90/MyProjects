@@ -1,0 +1,28 @@
+package a_Zadania.d_Dzien_4.a_Wprowadzanie_danych;
+
+import java.util.Scanner;
+
+public class Main5 {
+
+    public static void main(String[] args) {
+        textLines();
+    }
+
+    public static void textLines() {
+        while (true) {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Put a text: ");
+            String s = scan.nextLine();
+            if (s.equals("quit")) {
+                System.out.println("THE END");
+                break;
+            }
+            System.out.println(s);
+
+
+
+
+        }
+    }
+}
+

@@ -1,0 +1,29 @@
+package a_Zadania.d_Dzien_4.a_Wprowadzanie_danych;
+
+
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Main2 {
+    public static void main(String[] args) {
+        operations();
+    }
+
+        public static void operations() {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Input a number: ");
+            int number = scan.nextInt();
+            System.out.println("Input a number: ");
+            int number1 = scan.nextInt();
+
+            System.out.println(number + number1);
+            System.out.println(number - number1);
+            System.out.println(number * number1);
+            System.out.println(number / number1);
+
+
+    }
+}
+
